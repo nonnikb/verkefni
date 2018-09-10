@@ -191,3 +191,14 @@ while count < turns:
         
 Æfing 22
 
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+while low <= high:
+    sum = sum + low
+    low += 1
+print(sum)
+
+Æfing 23
