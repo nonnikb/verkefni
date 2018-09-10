@@ -69,3 +69,24 @@ length2 = str(input("Enter string 2: "))
 
 if length1 == length2:
     print("The strings are the same length")
+
+æfing 9
+
+int1 = int(input("Number 1: "))
+int2 = int(input("Number 2: "))
+int3 = int(input("Number 3: "))
+
+print(min(int1, int2, int3))
+
+æfing 10
+
+int1 = int(input("Enter a number: "))
+
+if int1 <10 or int1 >0:
+    print("Less than 10")
+elif int1 > 10 or int1 <= 20:
+    print("between 10 and 20")
+elif int1 > 20:
+    print("The value is too high!")
+elif int1 >0:
+    print("too low")
