@@ -215,3 +215,67 @@ print(sum)
 
 Æfing 24
 
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 3==0:
+        sum = sum + x
+print(sum)
+
+Æfing 25
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 3==0 or x % 5==0:
+        sum = sum + x
+
+print(sum)
+
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 3==0 or x % 5==0:
+        sum = sum + x
+
+print(sum)
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 3==0 or x % 5==0:
+        sum = sum + x
+
+print(sum)
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 3==0 or x % 5==0:
+        sum = sum + x
+
+print(sum)
+
+
+
+
+
+
+
+
