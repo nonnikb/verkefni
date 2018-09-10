@@ -49,3 +49,15 @@ celsius = int(input("Input celsius degree to convert: "))
 fahrenheit = celsius * 9/5 + 32
 
 print(fahrenheit)
+
+æfing 7
+
+num1 = int(input("Tala 1: "))
+num2 = int(input("Tala 2: "))
+
+if num1 > num2:
+    print(num1)
+elif num2 > num1:
+    print(num2)
+else:
+    print("numbers are equal")
