@@ -1,6 +1,17 @@
+#æfing 1 plúsa 2 tölur saman
 num1 = float(input("input a number: "))
 num2 = float(input("input second number: "))
 
 sum = num1 + num2
+
+print(sum)
+
+æfing 2 plúsa 3 tölur saman
+
+num1 = int(input("enter number 1: "))
+num2 = int(input("enter number 2: "))
+num3 = int(input("enter number 3: "))
+
+sum = num1 + num2 + num3
 
 print(sum)
