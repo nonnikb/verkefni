@@ -41,3 +41,11 @@ lastname = str(input("Enter your last name: "))
 fullname = firstname + lastname
 
 print("Your full name is", fullname,)
+
+æfing 6 
+
+celsius = int(input("Input celsius degree to convert: "))
+
+fahrenheit = celsius * 9/5 + 32
+
+print(fahrenheit)
