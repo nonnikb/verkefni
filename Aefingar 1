@@ -162,3 +162,32 @@ high = int(input("Input high: "))
 while low <= high:
     print(low)
     low = low + 1
+    
+Æfing 19
+
+low = int(input("Input low: "))
+high = int(input("Input high: "))
+
+while low <= high:
+    print(low)
+    low = low + 1
+    
+Æfing 20
+
+turns = int(input("How many turns?: "))
+count = 0
+while count < turns:
+    count = count +1
+    int(input("you picked: "))
+
+Æfing 21 
+
+turns = int(input("How many turns?: "))
+count = 0
+while count < turns:
+    y = int(input("Enter number: "))
+    if (y % 2 == 1):
+        print("you picked ", str(y))
+        
+Æfing 22
+
