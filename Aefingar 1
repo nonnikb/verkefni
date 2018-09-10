@@ -61,3 +61,11 @@ elif num2 > num1:
     print(num2)
 else:
     print("numbers are equal")
+
+æfing 8
+
+length1 = str(input("Enter string 1: "))
+length2 = str(input("Enter string 2: "))
+
+if length1 == length2:
+    print("The strings are the same length")
