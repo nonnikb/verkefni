@@ -106,3 +106,59 @@ elif choice == 3:
     print(a * b)
 else:
     print("Invalid input.")
+
+Æfing 12
+
+num = 0
+while num < 10:
+    num += 1
+    print(num)
+    
+Æfing 13
+
+num = -6
+while num < 10:
+    num += 1
+    print(num)
+
+Æfing 14
+
+num = 2
+while num < 13:
+    num += 1
+    print(num * 2)
+
+Æfing 15
+
+multiplier = int(input("Multiplier: "))
+
+num = 2
+while num <= 15:
+    num += 1
+    print(num * multiplier)
+
+Æfing 16
+
+num = 11
+
+while num >= 1:
+    num -= 1
+    print(num)
+
+Æfing 17
+
+num = 17
+
+while num >= 5:
+    num -= 2
+    print(num)
+
+
+Æfing 18
+
+low = int(input("Input low: "))
+high = int(input("Input high: "))
+
+while low <= high:
+    print(low)
+    low = low + 1
