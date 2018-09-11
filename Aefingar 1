@@ -238,44 +238,54 @@ for x in range(low, high +1):
 
 print(sum)
 
+Æfing 26 
 
-low = int(input("Low number: "))
-high = int(input("High number: "))
+turns = int(input("How many turns?: "))
+arr = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+print(len(arr))
 
-sum = 0
+Æfing 27
 
-for x in range(low, high +1):
-    if x % 3==0 or x % 5==0:
-        sum = sum + x
+turns = int(input("How many turns?: "))
+arr = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+print(sum(arr))
 
-print(sum)
+Æfing 28
 
-low = int(input("Low number: "))
-high = int(input("High number: "))
+turns = int(input("How many turns?: "))
+arr = []
+arr2 = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+    elif i > 0:
+        arr2.append(i)
+print(len(arr))
+print(len(arr2))
 
-sum = 0
+Æfing 29
 
-for x in range(low, high +1):
-    if x % 3==0 or x % 5==0:
-        sum = sum + x
+turns = int(input("How many turns?: "))
+arr = []
+arr2 = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+    elif i > 0:
+        arr2.append(i)
 
-print(sum)
-
-low = int(input("Low number: "))
-high = int(input("High number: "))
-
-sum = 0
-
-for x in range(low, high +1):
-    if x % 3==0 or x % 5==0:
-        sum = sum + x
-
-print(sum)
-
-
-
-
-
+print("how many", len(arr), "summa", sum(arr))
+print("how many", len(arr2), "summa", sum(arr2))
 
 
 
