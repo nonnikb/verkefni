@@ -1,0 +1,32 @@
+position = int(input("Enter a starting position: "))
+move_rl = position
+LMAX = 1
+RMAX = 10
+
+def left():
+    if move_rl <= LMAX:
+        return move_rl
+    move = move_rl - 1
+    return move
+
+def right():
+    if move_rl >= RMAX:
+        return move_rl
+    move = move_rl + 1
+    return move
+
+while True:
+    print("l - for moving left")
+    print("r - for moving right")
+    print("Any other letter for quitting")
+    choice = input("Input your choice: ")
+
+    if choice == "l":
+        move_rl = left()
+    elif choice == "r":
+        move_rl = right()
+    else:
+        print("New position is: ", str(move_rl))
+        break
+    print("New position is: ", str(move_rl))
+
