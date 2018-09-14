@@ -3,13 +3,13 @@ move_rl = position
 LMAX = 1
 RMAX = 10
 
-def left():
+def mleft():
     if move_rl <= LMAX:
         return move_rl
     move = move_rl - 1
     return move
 
-def right():
+def mright():
     if move_rl >= RMAX:
         return move_rl
     move = move_rl + 1
@@ -22,9 +22,9 @@ while True:
     choice = input("Input your choice: ")
 
     if choice == "l":
-        move_rl = left()
+        move_rl = mleft()
     elif choice == "r":
-        move_rl = right()
+        move_rl = mright()
     else:
         print("New position is: ", str(move_rl))
         break
