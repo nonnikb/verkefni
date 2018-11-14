@@ -1,0 +1,38 @@
+import random
+import string
+
+# Næ í orð úr input og breyti í lista?
+def get_word_string(filename):
+    try:
+        with open(filename, "r") as text_file:
+            word_string = ""
+            for line in text_file:
+                word_string += line
+            return word_string.split()
+    except:
+        print("File {} not found".format(filename))
+        return ""
+
+def scramble_string(word_string):
+    listi = []              # tómur listi
+    for i in word_string:
+        if len(i) >= 4:
+            first = i[0]
+            last = i[-1]
+            word = list(i[1:-1])   # tek miðjuna úr öllum stökunum í listanum
+            random.shuffle(word)   # shuffla orðin
+            word = "".join(word)
+            word = first+word+last
+            listi.append(word)     # bæti orðin við listi (tóma listann)
+        else:
+            listi.append(i)
+
+    return " ".join(listi)  #breyti listanum í string
+
+#Main program starts here - DO NOT change it
+random.seed(10)
+filename = input("Enter name of file: ")
+word_string = get_word_string(filename)
+#print(word_string)
+scrambled_string = scramble_string(word_string)
+print(scrambled_string)

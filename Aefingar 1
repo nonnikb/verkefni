@@ -1,0 +1,291 @@
+#æfing 1 plúsa 2 tölur saman
+num1 = float(input("input a number: "))
+num2 = float(input("input second number: "))
+
+sum = num1 + num2
+
+print(sum)
+
+æfing 2 plúsa 3 tölur saman
+
+num1 = int(input("enter number 1: "))
+num2 = int(input("enter number 2: "))
+num3 = int(input("enter number 3: "))
+
+sum = num1 + num2 + num3
+
+print(sum)
+
+æfing 3 margfalda 2 tölur saman
+
+num1 = int(input("enter number 1: "))
+num2 = int(input("enter number 2: "))
+
+
+sum = num1 * num2
+
+print(sum)
+
+æfing 4 
+
+name = str(input("Enter your name: "))
+age = int(input("Enter your age: "))
+
+print("Hello, my name is", name, "and my age is", age)
+
+æfing 5
+
+firstname = str(input("Enter your first name: "))
+lastname = str(input("Enter your last name: "))
+
+fullname = firstname + lastname
+
+print("Your full name is", fullname,)
+
+æfing 6 
+
+celsius = int(input("Input celsius degree to convert: "))
+
+fahrenheit = celsius * 9/5 + 32
+
+print(fahrenheit)
+
+æfing 7
+
+num1 = int(input("Tala 1: "))
+num2 = int(input("Tala 2: "))
+
+if num1 > num2:
+    print(num1)
+elif num2 > num1:
+    print(num2)
+else:
+    print("numbers are equal")
+
+æfing 8
+
+length1 = str(input("Enter string 1: "))
+length2 = str(input("Enter string 2: "))
+
+if length1 == length2:
+    print("The strings are the same length")
+
+æfing 9
+
+int1 = int(input("Number 1: "))
+int2 = int(input("Number 2: "))
+int3 = int(input("Number 3: "))
+
+print(min(int1, int2, int3))
+
+æfing 10
+
+int1 = int(input("Enter a number: "))
+
+if int1 <10 or int1 >0:
+    print("Less than 10")
+elif int1 > 10 or int1 <= 20:
+    print("between 10 and 20")
+elif int1 > 20:
+    print("The value is too high!")
+elif int1 >0:
+    print("too low")
+
+Æfing 11
+
+a = int(input("Number 1: "))
+b = int(input("Number 2: "))
+choice = int(input("Choice: "))
+
+
+if choice == 1:
+    print(a + b)
+elif choice == 2:
+    print(b - a)
+elif choice == 3:
+    print(a * b)
+else:
+    print("Invalid input.")
+
+Æfing 12
+
+num = 0
+while num < 10:
+    num += 1
+    print(num)
+    
+Æfing 13
+
+num = -6
+while num < 10:
+    num += 1
+    print(num)
+
+Æfing 14
+
+num = 2
+while num < 13:
+    num += 1
+    print(num * 2)
+
+Æfing 15
+
+multiplier = int(input("Multiplier: "))
+
+num = 2
+while num <= 15:
+    num += 1
+    print(num * multiplier)
+
+Æfing 16
+
+num = 11
+
+while num >= 1:
+    num -= 1
+    print(num)
+
+Æfing 17
+
+num = 17
+
+while num >= 5:
+    num -= 2
+    print(num)
+
+
+Æfing 18
+
+low = int(input("Input low: "))
+high = int(input("Input high: "))
+
+while low <= high:
+    print(low)
+    low = low + 1
+    
+Æfing 19
+
+low = int(input("Input low: "))
+high = int(input("Input high: "))
+
+while low <= high:
+    print(low)
+    low = low + 1
+    
+Æfing 20
+
+turns = int(input("How many turns?: "))
+count = 0
+while count < turns:
+    count = count +1
+    int(input("you picked: "))
+
+Æfing 21 
+
+turns = int(input("How many turns?: "))
+count = 0
+while count < turns:
+    y = int(input("Enter number: "))
+    if (y % 2 == 1):
+        print("you picked ", str(y))
+        
+Æfing 22
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+while low <= high:
+    sum = sum + low
+    low += 1
+print(sum)
+
+Æfing 23
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 2==1:
+        sum = sum + x
+print(sum)
+
+Æfing 24
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 3==0:
+        sum = sum + x
+print(sum)
+
+Æfing 25
+
+low = int(input("Low number: "))
+high = int(input("High number: "))
+
+sum = 0
+
+for x in range(low, high +1):
+    if x % 3==0 or x % 5==0:
+        sum = sum + x
+
+print(sum)
+
+Æfing 26 
+
+turns = int(input("How many turns?: "))
+arr = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+print(len(arr))
+
+Æfing 27
+
+turns = int(input("How many turns?: "))
+arr = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+print(sum(arr))
+
+Æfing 28
+
+turns = int(input("How many turns?: "))
+arr = []
+arr2 = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+    elif i > 0:
+        arr2.append(i)
+print(len(arr))
+print(len(arr2))
+
+Æfing 29
+
+turns = int(input("How many turns?: "))
+arr = []
+arr2 = []
+for x in range(1, turns + 1):
+    i = int(input("Enter a number: "))
+    if i < 0:
+        arr.append(i)
+    elif i > 0:
+        arr2.append(i)
+
+print("how many", len(arr), "summa", sum(arr))
+print("how many", len(arr2), "summa", sum(arr2))
+
+
+
