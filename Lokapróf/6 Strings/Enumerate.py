@@ -1,0 +1,13 @@
+"""Assume an input string s of any length where all letters are lowercase.
+Write code which prints the index location of each letter 'o' in the string
+one location per line of output.
+hint: enumerate[] is your friend
+Given the string s = 'happiness is when what you think, what you say and
+what you do are in harmony.- gandhi'
+the output will be 24-40-58-62-75"""
+
+my_str = input("Enter a string: ")
+for position, item in enumerate(my_str):
+    if item == 'o':
+        print(position)
+

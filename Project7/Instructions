@@ -1,0 +1,43 @@
+Skrifið Python forrit sem leyfir tveimur notendum að spila myllu (tic-tactoe).
+Í upphafi spyr forritið um vídd leiksins (vídd >= 3) og síðan um leiki
+til skiptis frá leikmanni X og leikmanni O (X byrjar).
+Þegar borðið er prentað út skal prenta sérhverja stöðu út í svæði sem er 5 af
+breidd og er hægri jafnað. Í sérhverri umferð er borðið prentað og í upphafi
+lítur það svona út (miðað við vídd 3):
+1 2 3
+4 5 6
+7 8 9
+Leikmenn slá inn leik með því að slá inn númer reits á borðinu sem þeir vilja
+merkja. Eftir sérhvern leik skrifar forritið út nýja stöðu. Dæmi um stöðu,
+eftir tvo leiki hjá X og einn leik hjá O, er:
+X O 3
+4 X 6
+7 8 9
+Forritið hættir keyrslu þegar i) annar hvor leikmanna hefur unnið eða ii)
+þegar búið er að fylla út í alla reiti. Sigur vinnst ef leikmaður nær
+jafnmörgum merkjum og vídd leiksins segir til um í tiltekinni röð, dálki eða
+hornalínum.
+Dæmi um lokastöðu (sigur hjá X):
+X O 3
+4 X O
+7 8 X
+Frekari leiðbeiningar:
+Forritun
+Háskólinn í Reykjavík Haustönn 2018
+1. Meðhöndlið villur í inntaki (inntak er einn stafur í einu) frá spilara.
+Inntakið stendur fyrir númer stöðu. Villur geta verið þrenns konar: i)
+númer stöðu er ekki tölusafur; ii) númer stöðu passar ekki við vídd
+leiksins; iii) þegar er búið að setja annaðhvort X eða O í viðkomandi
+stöðu.
+2. Áður en leikmanni er boðið upp á að leika leik þá þarf að athuga hvort
+spilið sé þegar búið, þ.e. hvort búið sé að fylla í alla reiti eða að annar
+spilaranna hafi þegar unnið.
+3. Í lokin skal skrifa út sigurvegarann eða tilkynna um jafntefli. Skrifað
+er út „Winner is: X“, eða „Winner is: O“ eða „Draw!“
+4. Inntak/úttak skal vera nákvæmlega eins og sýnt er í dæminu fyrir
+neðan.
+5. Það EIGIÐ að útfæra borðið sem lista af listum (hreiðraðan lista).
+Það ætti ekki að þurfa að taka fram að það er mjög mikilvægt að brjóta þetta
+verkefni niður í einstök hlutverkefni. Forritið (útfærslan) ykkar verður mun
+lengra en þau forrit sem þið hafið skrifað hingað til en þetta forrit ætti ekki
+að þurfa að vera meira en 200 línur.
